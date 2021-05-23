@@ -1,0 +1,14 @@
+//@supports (display: grid) {
+.blog__pie {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog__titulopie {
+  width: 33%;
+}
+
+.blog__contenidopie {
+  width: 66%;
+}
+//}

@@ -1,0 +1,40 @@
+.componentes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.componente {
+  //width: 30%;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 1em;
+  margin: 1% 0% 1% 2%;
+  background-color: #add8e6;
+  border: 2px solid #000000;
+  box-shadow: 3px 3px 12px #0000ff;
+}
+
+.componente__nombretexto {
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.componente__foto {
+  width: 100%;
+}
+
+.componente__fotoimg {
+  width: 100%;
+  min-width: 30px;
+  max-width: 400px;
+}
+
+.componente__instrumentostexto {
+  text-decoration: italic;
+}
+
+.componente__biografia-parrafo {
+  padding: 1%;
+}
